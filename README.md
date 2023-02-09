@@ -12,30 +12,45 @@
 
 * GitHub permite alojar proyectos en repositorios de forma gratuita y pública.
 
+## Configuración Git:
 
-## Guía de comandos:
+Configuración por defecto de git
+```bash
+$ git config --list
+```
 
-Inicializa el repositorio git
+Configurar variables globales
+```bash
+$ git config --global user.name "Nombre Usuario"
+$ git config --global user.email "email@ejemplo.com"
+```
+
+
+
+## Guía Básica de comandos:
+
+Inicializar el repositorio git
+
 
 ```bash
 $ git init
 ```
 
-Guarda un archivo especifico en Staging.
+Guardar un archivo especifico en Staging.
 
 ```bash
 $ git add <nombre_archivo>
 ```
 
-Guarda todos los archivos de la carpeta actual en Staging. 
+Guardar todos los archivos de la carpeta actual en Staging. 
 ```bash
 $ git add .
 ```
 
-Agrega al repositorio los achivos que se encuentran en Staging.
+Agregar al repositorio los achivos que se encuentran en Staging.
 
 ```bash
-$ git commit -m "mensaje_commit"
+$ git commit -m "Mensaje commit"
 ```
 
 ```bash
@@ -45,9 +60,9 @@ $ git status
 ```bash
 $ git log <nombre_archivo>
 ```
-
+Mostrar los cambios existentes de un archivo
 ```bash
-$ git show
+$ git show <nombre_archivo>
 ```
 
 ```bash
