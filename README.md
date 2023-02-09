@@ -51,11 +51,12 @@ Agregar al repositorio los achivos que se encuentran en Staging.
 
 ```bash
 $ git commit -m "Mensaje commit"
-```g
+```
 
 ```bash
 $ git status
 ```
+Mostrar los commits de un archivo
 
 ```bash
 $ git log <nombre_archivo>
