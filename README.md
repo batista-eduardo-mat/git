@@ -94,7 +94,7 @@ $ git commit
 $ git commit -m "Commit message"
 ```
 
-**Agregar**  al repositorio los achivos que se encuentran en Staging e **Insertar** mensaje del commit().
+**Agregar**  al repositorio los achivos que se encuentran en Staging e **Insertar** mensaje del commit.
 
 ```bash
 $ git commit -am "Commit message"
@@ -110,7 +110,7 @@ $ git status
 $ git log <file_name>
 ```
 
-**Mostrar** los cambios especificos de cada archivo en el último commit
+**Mostrar** los cambios específicos de cada archivo en el último commit
 ```bash
 $ git log --stat
 ```
