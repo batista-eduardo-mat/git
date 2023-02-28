@@ -57,11 +57,20 @@ Host *.github.com
   IdentityFile ~/.ssh/id_ed25519
 ```
 
-5) **Agrega** la llave privada SSH al ssh-agent
+5) **Agrega** la llave privada SSH al ssh-agent:
+
 ```bash
 $ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ``` 
 
+6) **Copiar** la llave ssh pública al portapapeles:
+
+```bash
+$ pbcopy < ~/.ssh/id_ed25519.pub
+```
+7) **Configurar** y pegar la llave pública en el campo Key dentro de
+
+* GitHub > Perfil > Settings > **SSH y claves GPG** > Nueva clave SSH. 
 
 
 ---
